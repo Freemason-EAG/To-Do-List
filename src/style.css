@@ -1,12 +1,13 @@
- /* body {
-    background: rgb(191, 219, 227);
-} */
-
-/* .active {
-  font-weight: bold;
-  color: purple;
+body {
+  background-color: rgb(216, 219, 220);
 }
 
-.nav {
-  margin-top: 20px;
-} */
+#todo {
+  background-color: aliceblue;
+  
+  
+  max-width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}

@@ -26,6 +26,10 @@ const render = (tasks, taskList) => {
         li.appendChild(doneButton)
         taskList.appendChild(li)
     })
+    const taskCounter = document.getElementById('taskCounter')
+        if (taskCounter) {
+            taskCounter.textContent = `${tasks.length} task${tasks.length !== 1 ? 's' : ''}`
+    }
 }
 
 

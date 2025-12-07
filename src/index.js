@@ -1,6 +1,6 @@
-import _ from 'lodash'
+// import _ from 'lodash'
 import './style.css'
-import { htmlEscape } from 'escape-goat'
+// import { htmlEscape } from 'escape-goat'
 
 const render = (tasks, taskList) => {
     taskList.textContent = ''
@@ -37,7 +37,6 @@ const state = {
 const form = document.getElementById('todoForm')
 
 const taskInput = form.elements.task
-const addTaskButton = document.getElementById('addTask')
 const taskList = document.getElementById('taskList')
 
 taskList.addEventListener('click', (event) => {
